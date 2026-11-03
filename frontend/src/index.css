@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Direct theme overrides to ensure fallback styling works regardless of bundler config */
+body {
+  margin: 0;
+  background-color: #F9F8F3;
+  color: #1D3124;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
